@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.ab.datastore.data";
+option java_multiple_files = true;
+
+message Detail {
+  string name = 1; // Field numbers such as 1, 2 , 3 is used to identify the field
+  int32 age = 2;
+  bool isCompleted = 3;
+
+
+}
